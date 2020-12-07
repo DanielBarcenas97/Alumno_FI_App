@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements
     DatePicker dpCalendar;
     Spinner  sCareers;
 
-    String[] careers = { "Computacion", "Mecatronica", "Civil", "Geomatica", "Geofisica","Telecomunicaciones"};
+    String[] careers = {getString(R.string.sistemas_biomedicos),getString(R.string.industrial),getString(R.string.electrica),getString(R.string.mecanica),getString(R.string.minas),getString(R.string.petrolera),getString(R.string.ambiental),getString(R.string.aeroespacial),getString(R.string.computacion), getString(R.string.mecatronica), getString(R.string.civil), getString(R.string.geomatica), getString(R.string.geofisica),getString(R.string.telecom)};
     String career;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

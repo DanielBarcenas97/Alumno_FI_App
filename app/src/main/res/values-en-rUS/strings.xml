@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Class 1</string>
+    <string name="tv_title">Faculty of Engineering \n UNAM </string>
+    <string name="tv_name">Name</string>
+    <string name="et_name">Enter your name:</string>
+    <string name="tv_last_name">Last name</string>
+    <string name="et_last_name">Enter your last name</string>
+    <string name="tv_num_account">Account number</string>
+    <string name="et_num_account">Enter your account number</string>
+    <string name="tv_date_born">Date of birth</string>
+    <string name="btn_continue">Continue</string>
+    <string name="txt_welcome">Welcome to Faculty of Engineering </string>
+    <string name="tv_name2">Name</string>
+    <string name="tv_num_example">12345678</string>
+    <string name="tv_age_example">23 years</string>
+    <string name="tv_career_example">Computer Engineering</string>
+    <string name="toast_introduce">Enter the corresponding values</string>
+    <string name="toast_date_born">Add your date of birth</string>
+    <string name="toast_careers">Choose an engineering career </string>
+    <string name="ing_computacion">Computer Engineering</string>
+    <string name="sistemas_biomedicos">Biomedical systems</string>
+    <string name="industrial">Industrial</string>
+    <string name="electrica">Electrical Electronic</string>
+    <string name="mecanica">Mechanical</string>
+    <string name="minas">Mines and Metallurgy</string>
+    <string name="petrolera">Oil</string>
+    <string name="ambiental">Environmental</string>
+    <string name="aeroespacial">Aerospace</string>
+    <string name="computacion">Computation</string>
+    <string name="mecatronica">Mechatronics</string>
+    <string name="civil">Civil</string>
+    <string name="geomatica">Geomatica</string>
+    <string name="geofisica">Geophysics</string>
+    <string name="telecom">Telecommunications</string>
+</resources>

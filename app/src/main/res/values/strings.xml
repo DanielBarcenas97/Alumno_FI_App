@@ -18,4 +18,18 @@
     <string name="toast_date_born">Agrega tu fecha de nacimiento</string>
     <string name="toast_careers">Elije una carrera de ingenieria</string>
     <string name="ing_computacion">Ingenieria en Computación</string>
+    <string name="sistemas_biomedicos">Sistemas Biomédicos</string>
+    <string name="industrial">Industrial</string>
+    <string name="electrica">Eléctrica Electrónica</string>
+    <string name="mecanica">Mecánica</string>
+    <string name="minas">Minas y Metalurgia</string>
+    <string name="petrolera">Petrolera</string>
+    <string name="ambiental">Ambiental</string>
+    <string name="aeroespacial">Aeroespacial</string>
+    <string name="computacion">Computacion</string>
+    <string name="mecatronica">Mecatronica</string>
+    <string name="civil">Civil</string>
+    <string name="geomatica">Geomatica</string>
+    <string name="geofisica">Geofisica</string>
+    <string name="telecom">Telecomunicaciones</string>
 </resources>
