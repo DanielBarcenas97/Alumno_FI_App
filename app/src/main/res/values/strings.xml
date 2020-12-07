@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">CMEjercicio_1</string>
+    <string name="tv_title">Facultad de Ingeniería \n UNAM </string>
+    <string name="tv_name">Nombre</string>
+    <string name="et_name">Introduce tu nombre:</string>
+    <string name="tv_last_name">Apellidos</string>
+    <string name="et_last_name">Introduce tus apellidos</string>
+    <string name="tv_num_account">Numero de cuenta</string>
+    <string name="et_num_account">Introduce tu numero de cuenta</string>
+    <string name="tv_date_born">Fecha de nacimiento</string>
+    <string name="btn_continue">Continuar</string>
+    <string name="txt_welcome">Bienvenido a Facultad de Ingenieria</string>
+    <string name="tv_name2">Name</string>
+    <string name="tv_num_example">12345678</string>
+    <string name="tv_age_example">23 Años</string>
+    <string name="tv_career_example">Ingenieria en computación</string>
+    <string name="toast_introduce">Introduce los valores correspondientes</string>
+    <string name="toast_date_born">Agrega tu fecha de nacimiento</string>
+    <string name="toast_careers">Elije una carrera de ingenieria</string>
+    <string name="ing_computacion">Ingenieria en Computación</string>
 </resources>
