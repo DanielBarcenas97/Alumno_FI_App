@@ -85,6 +85,6 @@
         android:layout_marginLeft="25dp"
         android:layout_marginTop="20dp"
         android:layout_height="250dp"
-        android:src="@drawable/compu2"/>
+        android:src="@drawable/image1"/>
 
 </RelativeLayout>

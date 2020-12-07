@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="itemsList">
+        <item>Biomedical systems</item>
+        <item>Industrial</item>
+        <item>Electrical Electronic</item>
+        <item>Mechanical</item>
+        <item>Mines and Metallurgy</item>
+        <item>Oil</item>
+        <item>Environmental</item>
+        <item>Aerospace</item>
+        <item>Computation</item>
+        <item>Mechatronics</item>
+        <item>Civil</item>
+        <item>Geomatica</item>
+        <item>Geophysics</item>
+        <item>Telecommunications</item>
+    </string-array>
+</resources>

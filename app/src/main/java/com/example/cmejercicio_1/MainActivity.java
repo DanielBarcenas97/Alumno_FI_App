@@ -2,6 +2,7 @@ package com.example.cmejercicio_1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -16,6 +17,8 @@ import android.widget.Toast;
 
 import com.example.cmejercicio_1.model.Student;
 
+import java.util.Calendar;
+
 import static com.example.cmejercicio_1.utils.Dates.returnAge;
 
 public class MainActivity extends AppCompatActivity implements
@@ -28,12 +31,16 @@ public class MainActivity extends AppCompatActivity implements
     DatePicker dpCalendar;
     Spinner  sCareers;
 
-    String[] careers = {getString(R.string.sistemas_biomedicos),getString(R.string.industrial),getString(R.string.electrica),getString(R.string.mecanica),getString(R.string.minas),getString(R.string.petrolera),getString(R.string.ambiental),getString(R.string.aeroespacial),getString(R.string.computacion), getString(R.string.mecatronica), getString(R.string.civil), getString(R.string.geomatica), getString(R.string.geofisica),getString(R.string.telecom)};
+    String dateBorn;
+
+    String[] careers;
+
     String career;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        careers = getResources().getStringArray(R.array.itemsList);
         init();
     }
 
@@ -54,7 +61,7 @@ public class MainActivity extends AppCompatActivity implements
         btnContinue.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(etName != null && etLastName!=null && etNumAccount!=null ){
+                if(!etName.getText().toString().isEmpty() && !etLastName.getText().toString().isEmpty() && !etNumAccount.getText().toString().isEmpty() ){
                     if(dpCalendar != null){
                         if(sCareers != null){
                             String name = etName.getText().toString();
@@ -64,8 +71,8 @@ public class MainActivity extends AppCompatActivity implements
 
                             String numAccount = etNumAccount.getText().toString();
 
-                            String date = String.valueOf(dpCalendar.getMaxDate());
-                            int age = returnAge(date).getYears();
+                            String dateBorn = dpCalendar.getYear()+"/"+ (dpCalendar.getMonth() + 1)+"/"+dpCalendar.getDayOfMonth();
+                            int age = returnAge(dateBorn).getYears();
 
                             Intent intent = new Intent(MainActivity.this, MainActivity2.class);
                             intent.putExtra("student", new Student(allName,numAccount,career,age));

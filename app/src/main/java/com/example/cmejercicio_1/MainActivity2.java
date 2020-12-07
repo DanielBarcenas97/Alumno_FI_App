@@ -8,6 +8,8 @@ import android.widget.TextView;
 
 import com.example.cmejercicio_1.model.Student;
 
+import java.text.MessageFormat;
+
 public class MainActivity2 extends AppCompatActivity {
 
     TextView mName;
@@ -34,7 +36,8 @@ public class MainActivity2 extends AppCompatActivity {
     private void init() {
         mName.setText(student.getName());
         mNumAccount.setText(student.getNumAccount());
-        mAge.setText(student.getAge());
         mCareer.setText(student.getCareer());
+        mAge.setText(MessageFormat.format("{0} Años", student.getAge()));
+
     }
 }

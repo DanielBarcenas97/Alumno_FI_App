@@ -10,7 +10,7 @@ public class Dates {
         int mes = 1;
         int dia = 1;
 
-        String[] d = birthday.split("T")[0].split("-");
+        String[] d = birthday.split("/");
 
         if (!d[0].equals("")){
             anio = Integer.parseInt(d[0]);

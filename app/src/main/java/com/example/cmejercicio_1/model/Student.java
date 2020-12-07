@@ -74,7 +74,8 @@ public class Student implements Parcelable {
     public void writeToParcel(Parcel dest, int i) {
         dest.writeString(this.name);
         dest.writeString(this.numAccount);
-        dest.writeInt(this.age);
+
         dest.writeString(this.career);
+        dest.writeInt(this.age);
     }
 }
