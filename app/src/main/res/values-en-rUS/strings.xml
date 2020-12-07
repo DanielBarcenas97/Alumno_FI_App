@@ -33,4 +33,5 @@
     <string name="geomatica">Geomatica</string>
     <string name="geofisica">Geophysics</string>
     <string name="telecom">Telecommunications</string>
+    <string name="txt_age">{0} Years Old</string>
 </resources>

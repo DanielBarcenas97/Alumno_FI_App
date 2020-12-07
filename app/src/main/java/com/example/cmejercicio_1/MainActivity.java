@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements
     DatePicker dpCalendar;
     Spinner  sCareers;
 
-    String dateBorn;
+    int pos;
 
     String[] careers;
 
@@ -76,6 +76,7 @@ public class MainActivity extends AppCompatActivity implements
 
                             Intent intent = new Intent(MainActivity.this, MainActivity2.class);
                             intent.putExtra("student", new Student(allName,numAccount,career,age));
+                            intent.putExtra("position",pos);
                             startActivity(intent);
 
                         }else{
@@ -96,6 +97,7 @@ public class MainActivity extends AppCompatActivity implements
     public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
         Toast.makeText(getApplicationContext(),careers[i] , Toast.LENGTH_LONG).show();
         career = careers[i];
+        pos = i;
     }
 
     @Override
